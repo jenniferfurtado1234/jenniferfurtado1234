@@ -1,3 +1,17 @@
++-----------------+     +---------------------+     +------------------+
+|     User        |     |        Event        |     |   EventManager   |
++-----------------+     +---------------------+     +------------------+
+| - username      |     | - name              |     | - events: list   |
+| - email          |     | - address           |     |                  |
+| - password       |     | - category          |     | + add_event()    |
+|                 |     | - time              |     | + view_events()  |
+| + register()    |     | - description       |     | + join_event()   |
+| + login()       |     | + attendees: list   |     | + cancel_event() |
+|                 |     +---------------------+     | + nearest_event()|
+|                 |                                   | + past_events()  |
++-----------------+                                   +------------------+
+
+
 import datetime
 import json
 
